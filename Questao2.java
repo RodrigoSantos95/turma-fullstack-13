@@ -8,6 +8,8 @@ public class Questao2 {
         double volumeConsumido = scn.nextDouble();
         System.out.printf("\nForneça o valor do m³ R$ ");
         double valorVolume = scn.nextDouble();
+        System.out.printf("\nForneça o valor da tarifa fixa R$ ");
+        double tarifaFixa = scn.nextDouble();
         
         scn.close();
     }
