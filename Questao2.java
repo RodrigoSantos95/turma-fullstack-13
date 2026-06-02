@@ -25,6 +25,7 @@ public class Questao2 {
             valorTotal = subtotal * ((txEsgoto/100) + 1);
         }
         
+        System.out.printf("Subtotal R$ %.2f | Total a pagar R$ %.2f", subtotal, valorTotal);
         scn.close();
     }
 }
