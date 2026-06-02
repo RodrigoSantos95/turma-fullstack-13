@@ -8,6 +8,9 @@ public class Questao1 {
         double qdtHoras = scn.nextDouble();
         System.out.println("\nDigite o valor da hora de trabalho R$ ");
         double valorHora = scn.nextDouble();
+
+        double salarioBruto = (qdtHoras * valorHora);
+
         
         scn.close();
     }
