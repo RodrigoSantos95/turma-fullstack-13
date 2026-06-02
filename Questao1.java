@@ -6,6 +6,9 @@ public class Questao1 {
         System.out.println("\nFolha de pagamento\n");
         System.out.println("\nDigite a quantidade de horas trabalhadas no mês: ");
         double qdtHoras = scn.nextDouble();
+        System.out.println("\nDigite o valor da hora de trabalho R$ ");
+        double valorHora = scn.nextDouble();
+        
         scn.close();
     }
 }
