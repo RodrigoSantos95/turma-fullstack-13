@@ -10,7 +10,8 @@ public class Questao2 {
         double valorVolume = scn.nextDouble();
         System.out.printf("\nForneça o valor da tarifa fixa R$ ");
         double tarifaFixa = scn.nextDouble();
-        
+        System.out.printf("\nForneça o percentual da taxa de esgoto ");
+        double txEsgoto = scn.nextDouble();
         scn.close();
     }
 }
