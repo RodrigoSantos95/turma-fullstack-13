@@ -11,7 +11,7 @@ public class Questao1 {
 
         double salarioBruto = (qdtHoras * valorHora);
 
-        
+        System.out.printf("Salário bruto R$ %.2f", salarioBruto);
         scn.close();
     }
 }
