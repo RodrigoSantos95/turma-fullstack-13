@@ -18,8 +18,13 @@ public class Questao2 {
         double txEsgoto = scn.nextDouble();
 
         double subtotal = (volumeConsumido * valorVolume) + tarifaFixa;
-        double valorTotal = subtotal * ((txEsgoto/100) + 1);
-
+        double valorTotal;
+        if (txEsgoto > 0 && txEsgoto <= 1) {
+            valorTotal = subtotal * (1 + txEsgoto);
+        }else{
+            valorTotal = subtotal * ((txEsgoto/100) + 1);
+        }
+        
         scn.close();
     }
 }
