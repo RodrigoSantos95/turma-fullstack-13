@@ -16,6 +16,9 @@ public class Questao2 {
         
         System.out.printf("\nForneça o percentual da taxa de esgoto ");
         double txEsgoto = scn.nextDouble();
+
+        double subtotal = (volumeConsumido * valorVolume) + tarifaFixa;
+        
         scn.close();
     }
 }
