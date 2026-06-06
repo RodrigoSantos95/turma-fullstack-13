@@ -8,7 +8,8 @@ public class Questao3 {
         double valorDolar = scn.nextDouble();
         System.out.print("Digite a cotação oficial atual do dólar ");
         double cotacaoDolar = scn.nextDouble();
-        
+        System.out.print("Digite a taxa de spread do banco ");
+        double txSpread = scn.nextDouble();
         scn.close();    
     }
 }
