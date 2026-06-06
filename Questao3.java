@@ -23,6 +23,8 @@ public class Questao3 {
             cotacaoAplicada = ((cotacaoDolar/100) + 1);
         }
 
+        valorTotal = valorDolar * cotacaoAplicada;
+
         scn.close();    
     }
 }
