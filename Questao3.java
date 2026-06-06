@@ -6,6 +6,8 @@ public class Questao3 {
         System.out.print("\nConversão de moeda\n");
         System.out.print("\nDigite o valor desejado a ser comprado em dólar (USD) $ ");
         double valorDolar = scn.nextDouble();
+        System.out.print("Digite a cotação oficial atual do dólar ");
+        double cotacaoDolar = scn.nextDouble();
         
         scn.close();    
     }
