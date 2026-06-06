@@ -20,10 +20,12 @@ public class Questao3 {
         if (txSpread > 0 && txSpread <= 1) {
             cotacaoAplicada = cotacaoDolar * (1+txSpread);
         }else{
-            cotacaoAplicada = ((cotacaoDolar/100) + 1);
+            cotacaoAplicada = cotacaoDolar * ((txSpread/100) + 1);
         }
 
-        valorTotal = valorDolar * cotacaoAplicada;
+        valorTotal = (valorDolar * cotacaoAplicada);
+
+        System.out.printf("Cotação aplicada: R$ %.2f | Total BRL: R$ %.2f", cotacaoAplicada, valorTotal);
 
         scn.close();    
     }
