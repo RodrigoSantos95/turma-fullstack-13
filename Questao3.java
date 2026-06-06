@@ -17,7 +17,11 @@ public class Questao3 {
         double valorTotal;
         double cotacaoAplicada;
         
-        
+        if (txSpread > 0 && txSpread <= 1) {
+            cotacaoAplicada = cotacaoDolar * (1+txSpread);
+        }else{
+            cotacaoAplicada = ((cotacaoDolar/100) + 1);
+        }
 
         scn.close();    
     }
