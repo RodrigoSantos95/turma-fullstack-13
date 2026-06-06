@@ -13,6 +13,8 @@ public class Questao3 {
         
         System.out.print("Digite a taxa de spread do banco ");
         double txSpread = scn.nextDouble();
+        double valorTotal;
+
         
         scn.close();    
     }
